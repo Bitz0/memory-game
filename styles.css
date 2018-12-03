@@ -1,0 +1,13 @@
+
+/*reset styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*box sizing can have two values: content-box(default) or border-box. In border-box, padding and margin are part of the total size of the element (instead of adding to it) so it shrinks the space for the content keeping it the same size  */
+}
+
+body{
+    height: 100vh; /*visible area of the webpage. VH = 1% of the viewport height*/
+    background-color: aquamarine;
+}
