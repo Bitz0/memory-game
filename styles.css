@@ -9,5 +9,34 @@
 
 body{
     height: 100vh; /*visible area of the webpage. VH = 1% of the viewport height*/
+    display: flex;
     background-color: aquamarine;
+}
+memory-game{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid lightcoral;
+}
+memory-card{
+    width: calc(25%-10px);
+    height: 33.33%;
+    margin: 5px;
+    position: relative;
+    border: 2px solid aqua;
+}
+
+.front-face, .back-face{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: papayawhip;
+}
+
+img{
+    width: 100px;
 }
